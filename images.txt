@@ -26,24 +26,24 @@
 #--platform=linux/amd64 tomcat:11.0
 
 #jdk 生成环境
-#--platform=linux/amd64 openjdk:8
-#--platform=linux/amd64 openjdk:17
-#--platform=linux/amd64 openjdk:21
+--platform=linux/amd64 eclipse-temurin:8-jdk
+--platform=linux/amd64 eclipse-temurin:17-jdk
+--platform=linux/amd64 eclipse-temurin:21-jdk
 
 #mysql 生成环境
---platform=linux/amd64 mysql:5.7
---platform=linux/amd64 mysql:8.0
+#--platform=linux/amd64 mysql:5.7
+#--platform=linux/amd64 mysql:8.0
 
 
 #postgresql 生成环境
---platform=linux/amd64 postgres:12
---platform=linux/amd64 postgres:13
---platform=linux/amd64 postgres:14
---platform=linux/amd64 postgres:15
+#--platform=linux/amd64 postgres:12
+#--platform=linux/amd64 postgres:13
+#--platform=linux/amd64 postgres:14
+#--platform=linux/amd64 postgres:15
 
 #MongoDB 生成环境
---platform=linux/amd64 mongo:4.4
---platform=linux/amd64 mongo:5.0
---platform=linux/amd64 mongo:6.0
+#--platform=linux/amd64 mongo:4.4
+#--platform=linux/amd64 mongo:5.0
+#--platform=linux/amd64 mongo:6.0
 
 
