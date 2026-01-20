@@ -26,9 +26,9 @@
 --platform=linux/amd64 tomcat:11.0
 
 #jdk 生成环境
---platform=linux/amd64 openjdk:8-jdk
---platform=linux/amd64 openjdk:17-jdk
---platform=linux/amd64 openjdk:21-jdk
+--platform=linux/amd64 openjdk:8
+--platform=linux/amd64 openjdk:17
+--platform=linux/amd64 openjdk:21
 
 #mysql 生成环境
 --platform=linux/amd64 mysql:5.7
