@@ -12,12 +12,12 @@
 --platform=linux/amd64 redis:7.2-alpine
 
 #redis-stack 生产环境（不要 Web 界面）
---platform=linux/amd64 redis-stack-server:7.2.0-v10
+--platform=linux/amd64 redis/redis-stack-server:7.2.0-v10
 #redis-stack 开发环境（需要 Web 界面）
---platform=linux/amd64 redis-stack:7.2.0-v10
+--platform=linux/amd64 redis/redis-stack:7.2.0-v10
 
 #nginx 生产环境
---platform=linux/amd64 nginx/nginx:1.22-alpine
+--platform=linux/amd64 nginx:1.22-alpine
 
 #tomcat 生产环境
 --platform=linux/amd64 tomcat:8.5
