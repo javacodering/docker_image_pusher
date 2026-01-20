@@ -9,26 +9,26 @@
 #自定义测试
 
 #redis 生产环境
---platform=linux/amd64 redis:7.2-alpine
+#--platform=linux/amd64 redis:7.2-alpine
 
 #redis-stack 生产环境（不要 Web 界面）
---platform=linux/amd64 redis/redis-stack-server:7.2.0-v10
+#--platform=linux/amd64 redis/redis-stack-server:7.2.0-v10
 #redis-stack 开发环境（需要 Web 界面）
---platform=linux/amd64 redis/redis-stack:7.2.0-v10
+#--platform=linux/amd64 redis/redis-stack:7.2.0-v10
 
 #nginx 生产环境
---platform=linux/amd64 nginx:1.22-alpine
+#--platform=linux/amd64 nginx:1.22-alpine
 
 #tomcat 生产环境
---platform=linux/amd64 tomcat:8.5
---platform=linux/amd64 tomcat:9.0
---platform=linux/amd64 tomcat:10.1
---platform=linux/amd64 tomcat:11.0
+#--platform=linux/amd64 tomcat:8.5
+#--platform=linux/amd64 tomcat:9.0
+#--platform=linux/amd64 tomcat:10.1
+#--platform=linux/amd64 tomcat:11.0
 
 #jdk 生成环境
---platform=linux/amd64 openjdk:8
---platform=linux/amd64 openjdk:17
---platform=linux/amd64 openjdk:21
+#--platform=linux/amd64 openjdk:8
+#--platform=linux/amd64 openjdk:17
+#--platform=linux/amd64 openjdk:21
 
 #mysql 生成环境
 --platform=linux/amd64 mysql:5.7
